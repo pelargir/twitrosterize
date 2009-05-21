@@ -1,0 +1,19 @@
+twitroster
+
+Adds a helper method to easily build Twit Rosters based on Terralien's
+excellent generator at http://twitroster.com
+
+== Usage
+
+Use the twitroster helper method where you want your Twit Roster to appear.
+Pass an array of Twitter usernames to display:
+
+  <%= twitroster %w(terralien pelargir) %>
+
+== Resources
+
+Repository: http://github.com/pelargir/twitroster/
+Blog: http://matthewbass.com
+Author: Matthew Bass
+
+Original generator built by Terralien

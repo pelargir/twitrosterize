@@ -1,0 +1,5 @@
+require 'rubygems'
+require 'test/unit'
+require 'mocha'
+require 'action_view'
+require 'twitroster'
