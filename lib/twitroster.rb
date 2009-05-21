@@ -1,8 +1,8 @@
 module TwitRoster
   def twitroster(usernames)
-    args = usernames.map { |e| "u=#{e}" }.join("&")
+    params = usernames.map { |e| "u=#{e}" }.join("&amp;")
     "<div id=\"twitroster\"><p>Loading...</p></div>\n" + 
-    "<script type=\"text/javascript\" src=\"http://twitroster.com/js?#{args}\"></script>"
+    "<script type=\"text/javascript\" src=\"http://twitroster.com/js?#{params}\"></script>"
   end
 end
 
