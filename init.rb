@@ -1,1 +1,1 @@
-require 'twitroster'
+require 'twitrosterize'
